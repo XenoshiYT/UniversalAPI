@@ -1,0 +1,11 @@
+# Reward-Time ist in Sekunden angegeben
+Reward-Time: 20
+Reward-Coins: 10
+# Reward-Boolean true = Coins per Time | false = Keine Coins per Time
+Reward-Boolean: false
+
+mysql:
+  host: "localhost"
+  database: "database"
+  username: "root"
+  password: "12345"

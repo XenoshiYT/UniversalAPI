@@ -1,0 +1,8 @@
+name: TimeAPI
+version: '${project.version}'
+main: de.xenodev.api.UniversalAPI
+api-version: 1.19
+
+commands:
+  addapipoints:
+    description: Verwalte die API-Punkte eines Spielers
