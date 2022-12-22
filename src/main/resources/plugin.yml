@@ -6,3 +6,5 @@ api-version: 1.19
 commands:
   addapipoints:
     description: Verwalte die API-Punkte eines Spielers
+  top:
+    description: Schaue dir die Top 3 Aktivesten Spieler an

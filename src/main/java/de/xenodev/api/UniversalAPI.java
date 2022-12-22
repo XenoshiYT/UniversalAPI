@@ -2,6 +2,7 @@ package de.xenodev.api;
 
 import de.xenodev.api.MySQL.*;
 import de.xenodev.api.commands.AddAPIPointsCMD;
+import de.xenodev.api.commands.CheckTopPlayerCMD;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -35,6 +36,8 @@ public final class UniversalAPI extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
         getServer().getPluginCommand("addapipoints").setExecutor(new AddAPIPointsCMD());
         getServer().getPluginCommand("addapipoints").setTabCompleter(new AddAPIPointsCMD());
+        getServer().getPluginCommand("top").setExecutor(new CheckTopPlayerCMD());
+        getServer().getPluginCommand("top").setTabCompleter(new CheckTopPlayerCMD());
     }
 
     @Override

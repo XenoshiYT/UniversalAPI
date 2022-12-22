@@ -108,7 +108,4 @@ public class AddAPIPointsCMD implements CommandExecutor, TabCompleter {
             return arrayList;
         }
     }
-
-    // /addAPIPoints <name> = 1
-    // /addAPIPoints <name> <befehlt> <data> <amount> = 4
 }
